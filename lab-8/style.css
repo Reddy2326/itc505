@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: #FCFFE0;
 }
 
 .container {
@@ -37,10 +37,13 @@ form input[type="submit"] {
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: #66a0df;
+  background-color: #FFB1B1;
   color: black;
   cursor: pointer;
   border-radius: 5px;
+}
+form input[type="submit"]:hover {
+  background-color: #0002A1;
 }
 
 .error {
